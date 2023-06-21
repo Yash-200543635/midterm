@@ -1,0 +1,95 @@
+/* Element selector */
+p {
+    color: rgb(2, 74, 66);
+  }
+  
+  /* Class selector */
+  .highlight {
+    color: rgb(0, 255, 225);
+  }
+
+  p:hover {
+    color: red;
+    background-color: pink;
+  }
+  
+  /* ID selector */
+  #mainheading {
+    font-size: 24px;
+  }
+  
+  /* Heading font-family */
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Paragraph and table font-family */
+  p, table {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Paragraph and table text size */
+  p, table {
+    font-size: 1.125rem;
+  }
+  
+  /* Div wrapper width and centering */
+  div.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  
+  /* Article padding */
+  article {
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  
+  /* Div wrapper background color */
+  div.wrapper {
+    background-color: gainsboro;
+  }
+  
+  /* Responsive image */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #da6ec0;
+    color: #FFF;
+    padding: 3em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  /* Table styling */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid rgb(58, 20, 20);
+  }
+  
+  th, td {
+    padding: 0.5em;
+  }
+  
+  th {
+    background-color: rgba(9, 124, 34, 0.63);
+  }
+  
+  caption {
+    font-weight: bold;
+  }
+  
